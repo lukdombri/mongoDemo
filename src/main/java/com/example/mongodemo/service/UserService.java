@@ -4,13 +4,9 @@ import com.example.mongodemo.dto.UserDTO;
 import com.example.mongodemo.mapper.UserMapper;
 import com.example.mongodemo.model.User;
 import com.example.mongodemo.repository.UserRepository;
-import com.mongodb.client.model.Filters;
-import com.mongodb.client.model.Updates;
-import com.mongodb.client.result.UpdateResult;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
